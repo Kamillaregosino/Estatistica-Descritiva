@@ -18,10 +18,7 @@ A função vai ser contínua em x0 se ocorrer:
 
 ## Importância
 
-1) Treinamento de Modelos (Backpropagation e Gradientes):
-Em redes neurais, a retropropagação (backpropagation) usa derivadas para ajustar os pesos do modelo. Garantir continuidade facilita o ajuste suave dos parâmetros. Um exemplo é usar a função ReLu(Rectified Linear Unit).
-
-2) Interpolação e suavização de dados: é essencial quando queremos prever valores entre pontos conhecidos, garantindo que não haja mudanças bruscas ou inconsistências nos dados.
+**Treinamento de Modelos (Backpropagation e Gradientes)**: Em redes neurais, a retropropagação (backpropagation) usa derivadas para ajustar os pesos do modelo. Garantir continuidade facilita o ajuste suave dos parâmetros. Um exemplo é usar a função ReLu(Rectified Linear Unit).
 
 **Interpolação**: é o processo de estimar valores entre pontos conhecidos. Se tivermos um conjunto de dados discretos, podemos usar uma função contínua para conectar esses pontos de forma suave.
 
