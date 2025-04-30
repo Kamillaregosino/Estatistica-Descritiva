@@ -14,9 +14,14 @@ Uma empresa envia uma campanha de e-mail marketing para 1000 clientes. Com base 
 - Definir o n, p e k
 - Usar o parâmetro .pmf de binom para calcular a probabilidade exata. O ``pmf`` significa: função de massa de probabilidade, por isso usa-se binom.pmf(k, n, p).
 
-# Como escolher intervalos de valores para k
+## Como escolher intervalos de valores para k
 
 - Média: n x p;
 - Desvio Padrão: raíz quadrada de (n x p x (1 - p));
 - Aproximações: média - 2 x desvio, média + 2 x desvio;
 - O resultado oferece as probabilidades relevantes que estarão concentradas. É importante para visualizar bem a região útil da distribuição (onde a probabilidade não é quase zero).
+
+## Gráfico
+
+![a11](https://github.com/user-attachments/assets/e04d6a6b-4c31-4e77-99d9-0981ec6ad8a1)
+
